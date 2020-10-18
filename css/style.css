@@ -1,0 +1,72 @@
+@import "https://cdn.jsdelivr.net/npm/gridstack@2.0.2/dist/gridstack.min.css";
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.btn {
+  display: inline-block;
+  padding: .375rem .75rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: .5rem;
+}
+
+input[type="text"] {
+  height: 30px;
+  vertical-align: middle;
+}
+
+.grid-stack {
+  background: #1b1b19;
+}
+
+.grid-stack-item-content {
+  color: #2c3e50;
+  text-align: center;
+  background-color: #d1d1d1;
+}
+
+.vid{
+  position: relative;
+}
+
+.vid h5{
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  z-index: 1000;
+  opacity: 0.1;
+ /* font-family: 'Bebas Neue', cursive; */
+  min-height: 10px;
+  width: 100%;
+}
+
+.grid-stack-item{
+  margin-right: 10px;
+}
+
+.vid h5:hover{
+  opacity: 0.9;
+}
+
+.video-js {
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
